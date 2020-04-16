@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation />
+    <Navigation LogoTitle='Pencil Co.'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
