@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Navigation from './Navigation/Navigation'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation LogoTitle='Pencil Co.'/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
