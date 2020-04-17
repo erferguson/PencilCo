@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <Navigation LogoTitle='Pencil Co.'/>
-        <Header />
+        <Header title='Pencil Co.' button='Graphium'/>
     </div>
   );
 }

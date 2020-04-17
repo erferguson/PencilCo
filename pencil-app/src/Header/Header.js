@@ -1,16 +1,21 @@
 import React from "react";
 import BackgroundHero from '../img/bg-masthead.jpg'
+import './Header.css'
 
 const heroImage = {
     backgroundImage: `url( ${BackgroundHero})`,
-    height: '80vh',
+    height: '50vh',
     backgroundSize: "cover"
 }
 
-function Header (){
+function Header ({title, button}){
    return (
         <div>
-            <header style={heroImage}></header>
+            <header style={heroImage}>
+                <h1>{title}</h1>
+                <p>Made in America since 1887</p>
+                <a href='#button'>{button}</a>
+            </header>
         </div>
     )
 }
