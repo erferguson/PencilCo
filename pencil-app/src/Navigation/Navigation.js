@@ -3,7 +3,7 @@ import React from "react";
 import "./Navigation.css";
 
 function Navigation({ LogoTitle }) {
-  const sections = ["Home", "About", "Services", "Products", "Contact"];
+  const sections = ["Home", "About", "Products","Services", "Contact"];
   const navLinks = sections.map(section => {
     return (
       <li>
