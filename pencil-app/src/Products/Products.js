@@ -12,7 +12,6 @@ function Products () {
                 <IconObj icon={icons[1].icon} title={icons[1].title} description={icons[1].description} />
                 <IconObj icon={icons[2].icon} title={icons[2].title} description={icons[2].description} />
                 <IconObj icon={icons[3].icon} title={icons[3].title} description={icons[3].description} />
-
             </div>
         </div>
     )

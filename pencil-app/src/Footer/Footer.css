@@ -1,0 +1,15 @@
+.social {
+    background-color: rgb(236, 184, 7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.social p {
+    color: #1d809f;
+    font-weight: 600;
+}
+
+.social > .row {
+    
+}
