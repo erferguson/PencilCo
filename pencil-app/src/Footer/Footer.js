@@ -8,16 +8,17 @@ import './Footer.css'
 //     backgroundSize: "cover"
 // }
 
+
 function Footer (){
    return (
-        <div className='social'>
+        <div className='footer'>
             <footer>
                 <div className='row'>
-                    <ion-icon name="logo-twitter"></ion-icon>
-                    <ion-icon name="logo-no-smoking"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-no-smoking"></ion-icon></span>
+                    <span><ion-icon name="logo-instagram"></ion-icon></span>
                 </div>
-                <p>Copyright Pencil Co. 2020</p>
+                <p>Copyright © Pencil Co. 2020</p>
             </footer>
         </div>
     )

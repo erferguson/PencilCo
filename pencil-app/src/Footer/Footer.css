@@ -1,15 +1,29 @@
-.social {
+.footer {
     background-color: rgb(236, 184, 7);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
 
-.social p {
+footer p {
     color: #1d809f;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.social > .row {
-    
+footer > .row {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+footer > .row span {
+    background-color: #1d809f;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 36px;
+    line-height: 85px;
 }
