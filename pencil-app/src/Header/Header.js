@@ -14,7 +14,7 @@ function Header ({title, button}){
             <header style={heroImage}>
                 <h1>{title}</h1>
                 <p>Made in America since 1887</p>
-                <a href='#button'>{button}</a>
+                <button>{button}</button>
             </header>
         </div>
     )

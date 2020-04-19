@@ -16,14 +16,15 @@ header p {
     color: rgb(33,37,41);
 }
 
-header a {
+button {
     box-shadow: 0 3px 3px 0 rgb(0,0,0, .1);
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 25px;
     background-color: #1d809f;
     border-color: #1d809f;
     color: #fff;
     text-decoration: none;
     padding: 1.25rem 2.5rem;
-    border-radius: .25rem;
+    border-radius: 1rem;
     display: inline-block;
 }
