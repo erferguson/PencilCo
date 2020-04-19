@@ -1,24 +1,4 @@
-import React from 'react';
-import './Products.css'
-
-function Products () {
-
-    return (
-        <div className='products'>
-            <h3>Products</h3>
-            <h2>What We Provide</h2>
-            <div className='row'>
-                <IconObj icon={icons[0].icon} title={icons[0].title} description={icons[0].description} />
-                <IconObj icon={icons[1].icon} title={icons[1].title} description={icons[1].description} />
-                <IconObj icon={icons[2].icon} title={icons[2].title} description={icons[2].description} />
-                <IconObj icon={icons[3].icon} title={icons[3].title} description={icons[3].description} />
-
-            </div>
-        </div>
-    )
-}
-
-export default Products;
+import React
 
 const icons = [
     {
