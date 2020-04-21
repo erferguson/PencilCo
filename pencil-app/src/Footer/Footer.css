@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(236, 184, 7);
+    background-color: #1d809f;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -11,8 +11,8 @@ footer > .row {
 }
 
 footer > .row span {
-    background-color: #1d809f;
-    color: #fff;
+    background-color: rgb(236, 184, 7);
+    color: #1d809f;
     border-radius: 50%;
     display: inline-block;
     font-size: 36px;
@@ -22,7 +22,7 @@ footer > .row span {
 }
 
 footer p {
-    color: #1d809f;
+    color: rgb(236, 184, 7);
     font-size: 16px;
     font-weight: 500;
     margin-top: 35px;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer'
 import './Products.css'
 
 function Products () {
@@ -13,6 +14,7 @@ function Products () {
                 <IconObj icon={icons[2].icon} title={icons[2].title} description={icons[2].description} />
                 <IconObj icon={icons[3].icon} title={icons[3].title} description={icons[3].description} />
             </div>
+            <Footer />
         </div>
     )
 }

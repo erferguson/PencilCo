@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundHero from '../img/bg-masthead.jpg'
+import BackgroundHero from '../../img/bg-masthead.jpg'
 import './Header.css'
 
 const heroImage = {
