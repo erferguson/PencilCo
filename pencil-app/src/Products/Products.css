@@ -3,6 +3,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
+    border: 2px solid red;
 }
 
 .products h3 {
