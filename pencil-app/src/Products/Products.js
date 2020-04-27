@@ -1,7 +1,5 @@
 import React from "react";
 
-import Footer from "../Footer/Footer";
-
 import BackgroundHero from "../img/portfolio-4.jpg";
 import "./Products.css";
 
@@ -41,7 +39,6 @@ function Products() {
           description={icons[3].description}
         />
       </div>
-      <Footer />
     </div>
   );
 }
