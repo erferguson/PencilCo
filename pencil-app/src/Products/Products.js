@@ -5,7 +5,7 @@ import "./Products.css";
 
 const heroImage = {
   backgroundImage: `url( ${BackgroundHero})`,
-  height: "45vh",
+  height: "15vh",
   backgroundSize: "cover",
   border: "2px solid red",
   marginTop: "-120px"
@@ -14,9 +14,9 @@ const heroImage = {
 function Products() {
   return (
     <div className="products">
-      <div style={heroImage}></div>
-      <h3>Products</h3>
-      <h2>What We Provide</h2>
+      <header style={heroImage}>
+        <h2>Our Products</h2>
+      </header>
       <div className="row">
         <IconObj
           icon={icons[0].icon}
