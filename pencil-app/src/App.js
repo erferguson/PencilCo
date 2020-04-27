@@ -8,48 +8,51 @@ import About from './About/About'
 import Products from './Products/Products'
 import Services from './Services/Services'
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <nav> 
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/about'>About</Link>
-            </li>
-            <li>
-              <Link to='/products'>Products</Link>
-            </li>
-            <li>
-              <Link to='/services'>Services</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
-          </ul>
-        </nav>
-  
-        <Switch>
-          <Route path='/about'>
-            <About />
-          </Route>
-          <Route path='/products'>
-            <Products />
-          </Route>
-          <Route path='/services'>
-            <Services />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
-          <Route path='/'>
-            <Home /> 
-          </Route>
-        </Switch>
+      <div className="App Site">
+        <div className="Site-content">
+          <nav> 
+            <ul>
+              <li>
+                <Link to='/'>Home</Link>
+              </li>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/products'>Products</Link>
+              </li>
+              <li>
+                <Link to='/services'>Services</Link>
+              </li>
+              <li>
+                <Link to='/contact'>Contact</Link>
+              </li>
+            </ul>
+          </nav>
+          <Switch>
+            <Route path='/about'>
+              <About />
+            </Route>
+            <Route path='/products'>
+              <Products />
+            </Route>
+            <Route path='/services'>
+              <Services />
+            </Route>
+            <Route path='/contact'>
+              <Contact />
+            </Route>
+            <Route path='/'>
+              <Home /> 
+            </Route>
+          </Switch>
+        </div>
+        <Footer />
       </div>
     </Router>
   );
