@@ -1,5 +1,6 @@
 import React from 'react';
 import BackgroundHero from '../img/PencilCo..png'
+import './About.css'
 
 const heroImage = {
     backgroundImage: `url( ${BackgroundHero})`,
@@ -9,7 +10,7 @@ const heroImage = {
 
 function About () {
     return (
-        <div>
+        <div className='section'>
             <header style={heroImage}>
             </header>
             <p>The funny thing about being a family-owned, 100-year-old pencil factory is that a pencil is an enduring object in the midst of change — including technology and major shifts to American manufacturing.
